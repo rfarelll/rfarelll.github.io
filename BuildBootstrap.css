@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-image: url("Segitiga.png");
+    font-family: nunito;
+    color: #4f4f4f;
+    
+}
+.image {
+    height: 720px;
+}
+
+.logo {
+    margin-top: 32px;
+    height: 42px;
+}
+
+.position-logo {
+    justify-content: right;
+    margin-right: 48px;
+}
+
+.heading {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 750;
+    font-size: 48px;
+}
+
+.point {
+    margin-top: 1rem;
+}
+
+.bintang {
+    height: 48px;
+}
+
+.heading-point {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.content-point {
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 5rem;
+}
