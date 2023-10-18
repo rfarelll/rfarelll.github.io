@@ -1,52 +1,45 @@
 <html>
     <head>
-        <title>Bootstrap</title>
+        <title>My</title>
         
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="BuildBootstrap.css">
+        <link rel="stylesheet" href="Design.css">
 
     </head>
-
-    <body> 
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6"></div>
-                <div class="col-6">
-                    <div class="row position-logo">
-                        <img src="Logo.png" class="logo">
-                    </div>
-                    <div class="row">
-                        <h1 class="heading">
-                            Marketing strategy
-                        </h1>
-                    </div>
-                    <div class="row point">
-                        <img src="Bintang.png" class="bintang">
-                        <p class="heading-point">Advertising</p>
-                       
-                    </div>
-                    <div class="row">
-                        <p class="content-point">Reach COOs quickly</p>
-                    </div>
-                    <div class="row point">
-                        <img src="Bintang.png" class="bintang">
-                        <p class="heading-point">Organic search</p>
-                    </div>
-                    <div class="row">
-                        <p class="content-point">With a focus on long-tail keywords</p>
-                    </div>
-                    <div class="row point">
-                        <img src="Bintang.png" class="bintang">
-                        <p class="heading-point">Content marketing</p>
-                    </div>
-                    <div class="row">
-                        <p class="content-point">Providing useful, niche content</p>
-                    </div>
-                </div>
-            </div>
+    <div>
+        <img src=""
+    </div>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+        </ul>
+    </nav>
+    <br>
+    <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" placeholder="Enter email" id="email">
         </div>
-    </body>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 </html>
