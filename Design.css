@@ -5,4 +5,20 @@ body{
     color: #ffffff;
     background-image:url("E4I-7cAVcAITaq4.jpeg");
     background-size: auto;
+    font-family: 'Space Mono', monospace;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Set a fixed height for the container */
+}
+.rounded-image {
+    height: 450px; /* Set the height of the image */
+    width: auto; /* Let the width adjust automatically to maintain aspect ratio */
+    border-radius: 100%; /* Make the image rounded */
+}
+.navbar-brand{
+    font-size: 20px;
+    margin-right: 20px;
 }
