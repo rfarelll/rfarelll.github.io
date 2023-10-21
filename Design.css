@@ -1,32 +1,36 @@
-body{
+body {
     background-color: #454242;
     background-repeat: no-repeat;
-    font-family: nunito;
-    color: #ffffff;
-    background-size: auto;
     font-family: 'Space Mono', monospace;
+    color: #ffffff;
 }
+
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-     /* Set a fixed height for the container */
 }
+
 .rounded-image {
-    height: 450px; /* Set the height of the image */
-    width: auto; /* Let the width adjust automatically to maintain aspect ratio */
-    border-radius: 100%; /* Make the image rounded */
+    height: 450px;
+    width: auto;
+    border-radius: 50%;
 }
-.navbar-brand{
-    font-size: 20px;
-    margin-right: 20px;
+
+.navbar {
+    background-color: #343a40;
 }
-.font-about{
-    font-size: medium;
+
+.navbar-nav .nav-link {
+    color: white;
 }
-.font-school{
-    color: black
+
+.jumbotron {
+    padding: 3rem;
+    margin-bottom: 0;
 }
-.transition{
-    transition: 5ms;
+
+.transition {
+    transition: 0.5s;
 }
+
