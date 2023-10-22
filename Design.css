@@ -34,7 +34,12 @@ body {
     padding: 3rem;
     margin-bottom: 0;
 }
-
+.jumbotron-colour{
+    background-color: #343a40;
+}
+.jumbotron-colour2{
+    background-color:slategrey;
+}
 /* Style transition effect */
 .transition {
     transition: 0.5s;
