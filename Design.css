@@ -6,7 +6,7 @@ body {
     font-weight: bold;
 }
 
-/* Center and round the profile image */
+
 .image-container {
     display: flex;
     justify-content: center;
@@ -19,7 +19,6 @@ body {
     border-radius: 50%;
 }
 
-/* Navbar styles */
 .navbar {
     background-color: #343a40;
     font-size: 20px;
@@ -29,7 +28,6 @@ body {
     color: white;
 }
 
-/* Style jumbotron sections */
 .jumbotron {
     padding: 3rem;
     margin-bottom: 0;
@@ -40,33 +38,11 @@ body {
 .jumbotron-colour2{
     background-color:gray;
 }
-/* Style transition effect */
+
 .transition {
     transition: 0.5s;
 }
 .carousel-inner {
     width: 100%;
     height: 100%;
-}
-tombol {
-    text-transform: uppercase;
-    border-radius: 40px;
-    font-weight: 600;
-    background-color: #0b63dc; /* warna background tombol */
-    color: #fff; /* warna tulisan di tombol */
-    padding: 15px 30px; /* padding untuk tombol */
-    transition: background-color 0.3s; /* transisi */
-}
-
-.tombol:hover {
-    background-color: #349b11; /* warna kalau hover*/
-}
-
-.section-contact {
-    background-color: aliceblue;
-    padding: 50px 0;
-}
-
-.section-contact h2 {
-    font-family: Viga;
 }
